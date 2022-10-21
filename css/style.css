@@ -8,10 +8,10 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #211E1F;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --btn-bg-color: #B0AFAF;
+  --accent-color: #EDA642;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -41,6 +41,7 @@ body {
 /* HEADER */
 
 header {
+  background-color: #5E5B5B;
   box-shadow: var(--header-shadow);
 }
 
@@ -51,6 +52,7 @@ header .container {
 }
 
 .menu {
+  background-color: #5E5B5B;
   display: flex;
   gap: 2rem;
   align-items: center;
